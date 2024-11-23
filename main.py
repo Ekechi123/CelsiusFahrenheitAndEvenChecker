@@ -24,5 +24,13 @@ def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 
 def is_even(number):
-    return number % 2 == 0
+"""
+    Checks if a number is even.
 
+    Parameters:
+        number (int): The number to check.
+
+    Returns:
+        bool: True if the number is even, False otherwise.
+    """
+    return number % 2 == 0
