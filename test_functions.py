@@ -10,3 +10,10 @@ def test_fahrenheit_to_celsius():
     assert fahrenheit_to_celsius(32) == 0
     assert fahrenheit_to_celsius(212) == 100
     assert fahrenheit_to_celsius(-40) == -40
+
+def test_is_even():
+    from main import is_even
+    assert is_even(2) == True
+    assert is_even(3) == False
+    assert is_even(0) == True
+
